@@ -199,7 +199,6 @@ body {
 .phone-mockup {
     width: 280px;
     height: 560px;
-    background: linear-gradient(135deg, var(--secondary) 0%, var(--secondary-dark) 100%);
     border-radius: 40px;
     padding: 16px;
     box-shadow: var(--shadow-lg);
@@ -225,7 +224,7 @@ body {
     border-radius: 28px;
     overflow: hidden;
     background-image: url('demo.jpeg');
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
